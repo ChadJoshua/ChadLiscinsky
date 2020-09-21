@@ -1,0 +1,58 @@
+/* Navigation bars*/
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(247, 242, 231, 0.8)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #f7f2e7;
+  border-width: 2px;
+}
+
+.navbar {
+  padding: 0;
+  font-size: 10rem;
+}
+
+.navbar-brand {
+  font-family: "Roboto";
+  padding: 0 0 0 50px;
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: #e8ded2;
+}
+
+.navbar-brand:hover {
+  color: #797a7e;
+}
+
+.nav-item {
+  padding: 40px 50px 10px;
+}
+
+.nav-link {
+  font-family: "Roboto Condensed";
+  font-size: 1.5rem;
+  color: #e3dfc8;
+}
+
+.nav-link:hover {
+  color: #797a7e;
+}
+
+/* links/Footer */
+.icon2 {
+  margin: 20px 5px;
+  color: #fe7171;
+}
+
+.icon2:hover {
+  color: #e3dfc8;
+}
+
+#contact {
+  text-align: center;
+}
+
+.contact {
+  padding-top: 40px;
+}

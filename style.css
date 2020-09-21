@@ -1,0 +1,201 @@
+body {
+  font-family: "Montserrat";
+}
+
+p {
+  font-family: "Montserrat";
+  font-size: .85rem;
+}
+
+h1 {
+  font-family: "Roboto";
+  font-weight: 900;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* main page */
+#title {
+  background-color: #f6f4e6;
+}
+
+.istanbulbooks {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+#container-fluid {
+  padding: .5% 2.3% 50%;
+  background: url('istanbulbooks.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Main Navbar */
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(247, 242, 231, 0.8)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #f7f2e7;
+  border-width: 2px;
+}
+
+.navbar-brand {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 3.7rem;
+  padding-top: 8px;
+  padding-left: 12px;
+  color: #e8ded2;
+}
+
+.navbar-brand:hover {
+  color: #e0ece4;
+}
+
+.nav-item {
+  padding: 0px 10px;
+  font-weight: 100;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #e8ded2;
+}
+
+.nav-link:hover {
+  color: #e0ece4;
+}
+
+/* Navbar - About - Skills */
+.nav-item2 {
+  margin-right: 26px;
+  margin-left: 1.5%;
+  padding: 1.1%;
+}
+
+.nav-link2, .nav-link3 {
+  color: #797a7e;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.nav-link2:hover, .nav-link3:hover {
+  color: #fe7171;
+  text-decoration: none;
+}
+
+.nav-item3 {
+  margin-right: 26px;
+  padding: 1.6%;
+}
+
+/* about */
+.about {
+  background-color: #d8d3cd;
+  background: url('cleanpaper.jpg') repeat center center fixed;
+  background-size: repeat;
+  padding: 2% 8% 6% 5%;
+}
+
+.about-text {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  padding-top: 2%;
+  padding-left: 9%;
+  color: #797a7e;
+}
+
+.aboutchadtext {
+  font-family: "Montserrat";
+  color: #797a7e;
+  font-size: 1.05rem;
+  line-height: 2;
+  text-align: left;
+  padding-right: 30%;
+  padding-left: 9%;
+}
+
+.chadtrain {
+  /* bw-webkit-filter: grayscale(100%);
+  filter: grayscale(100%); */
+  border-radius: 100%;
+  float: right;
+  width: 25.5%;
+  position: relative;
+}
+
+/* skills */
+.skills {
+  background-color: #d8d3cd;
+  background: url('cleanpaper.jpg') repeat center center fixed;
+  background-size: repeat;
+  padding: 2% 7% 12% 7%;
+}
+
+.skills-text {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  text-align: left;
+  margin: 0;
+  padding-top: 2.2%;
+  padding-bottom: 0%;
+  color: #797a7e;
+}
+
+/* feature-skills-text */
+.feature-box {
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 2px;
+  border-color: #fff;
+  text-align: center;
+  padding: 2.5%;
+}
+
+.feature-text {
+  padding-bottom: 6%;
+}
+
+.featuretext {
+  font-size: 1.2rem;
+  color: #797a7e;
+  font-weight: Normal;
+  line-height: 1;
+  padding-top: 1%;
+}
+
+.icon {
+  color: #fe7171;
+  margin-bottom: .5rem;
+}
+
+.icon:hover {
+  color: #40a8c4;
+}
+
+/* links/Footer */
+.icon2 {
+  margin: 20px 5px;
+  color: #fe7171;
+}
+
+.icon2:hover {
+  color: #d8d3cd;
+}
+
+#contact {
+  text-align: center;
+  background-color: #f6f4e6;
+  padding: 1%;
+}
